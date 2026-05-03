@@ -176,9 +176,9 @@ Initial test setup:
 
 ## Conclusion
 
-The system maintained stable performance across all load levels with no errors. Throughput improved with increased users, and most response times remained within acceptable limits.
+The system maintained stable performance across all load levels with no errors observed during testing. Throughput improved as user load increased, indicating good scalability of the application.
 
-Some requests showed higher response times, indicating potential areas for optimization.
+Most response times remained within acceptable limits, although certain requests showed higher latency, highlighting potential areas for optimization.
 
 ---
 
@@ -187,3 +187,13 @@ Some requests showed higher response times, indicating potential areas for optim
 - `DemoWebShop.jmx` – Main JMeter test script  
 - `Login_users.csv` – Test data for parameterization  
 - `.jtl files` – Raw test result files for different load scenarios (10, 20, 50 users)  
+
+## Future Scope
+- Execute with 100+ users using parameterized test data
+
+## How to Run
+
+1. Open the `.jmx` file in Apache JMeter  
+2. Update CSV file path (`Login_users.csv`) if required  
+3. Configure Thread Group (users, ramp-up, duration)  
+4. Run the test and monitor results using Aggregate Report or View Results Tree 
