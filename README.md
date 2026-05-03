@@ -1,7 +1,7 @@
 # JMeter Performance Testing – Demo Web Shop Checkout Flow
 
 ## Overview
-This project focuses on performance testing of the Demo Web Shop application using Apache JMeter. The objective was to simulate real user behavior for the complete checkout flow and analyze system performance under different load conditions.
+This project focuses on performance testing of the Demo Web Shop application using Apache JMeter. The objective was to simulate real user behavior for the complete checkout flow and analyze system performance under different load conditions.This project includes the JMeter test plan, test data file, and raw JTL result files for 10, 20, and 50 user load tests.
 
 ---
 
@@ -62,7 +62,7 @@ Multiple cookies were involved across requests.
 
 ### 4. Parameterization
 To simulate multiple users:
-- Created a `users.csv` file  
+- Created a `Login_users.csv` file  
 - Parameterized login and registration data  
 
 This allowed the test to scale for multiple users.
